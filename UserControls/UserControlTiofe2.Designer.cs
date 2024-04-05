@@ -293,7 +293,6 @@
             this.Controls.Add(this.label1);
             this.Name = "UserControlTiofe2";
             this.Size = new System.Drawing.Size(834, 415);
-            this.Load += new System.EventHandler(this.UserControlTiofe2_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             this.ResumeLayout(false);

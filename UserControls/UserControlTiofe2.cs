@@ -221,9 +221,6 @@ namespace T2UI.UserControls
                 simpleSound.Play();
             }
         }
-        private void UserControlTiofe2_Load(object sender, EventArgs e)
-        {
-        }
 
         private void textBox1_KeyDown(object sender, KeyEventArgs e)
         {

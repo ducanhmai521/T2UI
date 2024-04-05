@@ -34,6 +34,8 @@
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // label1
@@ -96,10 +98,37 @@
             this.label4.Text = resources.GetString("label4.Text");
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.label5.Location = new System.Drawing.Point(19, 148);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(150, 17);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "T2UI Github repository:";
+            // 
+            // linkLabel2
+            // 
+            this.linkLabel2.ActiveLinkColor = System.Drawing.Color.RoyalBlue;
+            this.linkLabel2.AutoSize = true;
+            this.linkLabel2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel2.LinkColor = System.Drawing.Color.DodgerBlue;
+            this.linkLabel2.Location = new System.Drawing.Point(175, 150);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(70, 15);
+            this.linkLabel2.TabIndex = 12;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "Github.com";
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
+            // 
             // UserControlSettings_About
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.linkLabel2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.linkLabel1);
@@ -119,5 +148,7 @@
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.LinkLabel linkLabel2;
     }
 }

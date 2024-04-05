@@ -22,5 +22,10 @@ namespace T2UI.UserControls
         {
             Process.Start("explorer", "https://www.codeproject.com/Articles/1259429/Simple-Files-Encrypt-Decrypt");
         }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("explorer", "https://github.com/ducanhmai521/T2UI");
+        }
     }
 }
