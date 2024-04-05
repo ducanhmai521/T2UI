@@ -1,5 +1,5 @@
 # T2UI
 A dumb T2 rewriter with some more features.
 
-#Qbỡụờì
+# Qbỡụờì
 I will never forget you, my teenage mistake.
